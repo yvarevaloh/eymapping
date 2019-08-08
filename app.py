@@ -41,7 +41,6 @@ from keras.layers import Input, Dense, Lambda, Dropout, BatchNormalization
 
 
 app = Flask(__name__)
-
 @app.route("/")
 def post_route():
 
@@ -49,8 +48,8 @@ def post_route():
     #file= request.files['file'].read()
     #dataset = Dataset().load(file)
     #data=exceltodict(dataset)
-    formatoEYcomp=pd.read_excel('formatoEYcomp.xlsx')
-    print(formatoEYcomp.head())
+    #formatoEYcomp=pd.read_excel('formatoEYcomp.xlsx')
+    #print(formatoEYcomp.head())
     return "hola"
 
 #app.run(host='127.0.0.1', port=8080, debug=True)
