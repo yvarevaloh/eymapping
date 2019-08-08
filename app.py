@@ -5,8 +5,8 @@
 
 from flask import Flask, request
 from nltk.tokenize import sent_tokenize, word_tokenize
-import spacy
-from spacy import displacy
+#import spacy
+#from spacy import displacy
 from collections import Counter
 #import en_core_web_sm
 #nlp = en_core_web_sm.load()
