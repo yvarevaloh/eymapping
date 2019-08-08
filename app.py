@@ -28,10 +28,10 @@ import pandas as pd
 
 import tensorflow as tf
 import tensorflow_hub as hub
-#import keras
-#from keras.models import Model
-#from keras.models import load_model
-#from keras.layers import Input, Dense, Lambda, Dropout, BatchNormalization
+import keras
+from keras.models import Model
+from keras.models import load_model
+from keras.layers import Input, Dense, Lambda, Dropout, BatchNormalization
 
 
 app = Flask(__name__)
@@ -46,6 +46,6 @@ def post_route():
     #data=exceltodict(dataset)
     #formatoEYcomp=pd.read_excel('formatoEYcomp.xlsx')
     #print(formatoEYcomp.head())
-    return "hola mundo 2"
+    return "hola mundo 3"
 
 # app.run(host='127.0.0.1', port=8080, debug=True)
