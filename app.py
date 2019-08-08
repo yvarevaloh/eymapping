@@ -27,7 +27,7 @@ import pandas as pd
 #import csv
 
 import tensorflow as tf
-#import tensorflow_hub as hub
+import tensorflow_hub as hub
 #import keras
 #from keras.models import Model
 #from keras.models import load_model
@@ -46,6 +46,6 @@ def post_route():
     #data=exceltodict(dataset)
     #formatoEYcomp=pd.read_excel('formatoEYcomp.xlsx')
     #print(formatoEYcomp.head())
-    return "hola mundo"
+    return "hola mundo 2"
 
 # app.run(host='127.0.0.1', port=8080, debug=True)
