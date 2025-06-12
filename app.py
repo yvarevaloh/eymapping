@@ -15,7 +15,7 @@ from flask import Flask, request
 from flask import jsonify
 from flask import request
 #import _pickle as cPickle
-import pandas as pd
+import pandas as ps
 
 #from nltk.tokenize import sent_tokenize, word_tokenize
 from tablib import Dataset
